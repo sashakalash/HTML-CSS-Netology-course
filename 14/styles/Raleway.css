@@ -1,0 +1,295 @@
+
+@font-face {
+    font-family:'Raleway-Bold';
+    src: url(../fonts/'Raleway Bold.eot');
+	src: url(../fonts/'Raleway Bold.eot?#iefix') format('embedded-opentype'),
+		url(../fonts/'Raleway Bold.woff2') format('woff2'),
+		url(../fonts/'Raleway Bold.woff') format('woff'),
+		url(../fonts/'Raleway Bold.ttf') format('truetype'),
+		url(../fonts/'Raleway Bold.otf') format('opentype'),
+		url(../fonts/'Raleway Bold.svg#Raleway Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-04B1;
+}
+
+@font-face {
+    font-family:'Raleway';
+    src: url(../fonts/'Raleway.eot');
+	src: url(../fonts/'Raleway.eot?#iefix') format('embedded-opentype'),
+		url(../fonts/'Raleway.woff2') format('woff2'),
+		url(../fonts/'Raleway.woff') format('woff'),
+		url(../fonts/'Raleway.ttf') format('truetype'),
+		url(../fonts/'Raleway.otf') format('opentype'),
+		url(../fonts/'Raleway.svg#Raleway') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-04B1;
+}
+			body{
+			width: 1900px;
+			height: 2488px;
+			font-size: 10px;
+			min-height: 1385px;
+			margin: 0;
+			padding: 0;
+			}
+			/*Для проверки точности*/
+			/*.pixelperfect{
+			position: absolute;
+			width: 1900px;
+			height: 2488px;
+			background-image: url(../images/Homework.jpg);/
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position-y: -819px;
+			opacity: 0.5;
+			}*/
+	
+			.center{
+			width: 1168px;
+			margin: 0 auto;
+
+			}
+			.tab-bar{
+				display: flex;
+				flex-wrap:wrap;
+				padding-top: 50px;
+				background-repeat: no-repeat;
+				background-position-x:52%;
+				background-position-y:29%;
+
+			}
+			.tab-bar-point{
+				display: block;
+				position: relative;
+				box-sizing: border-box;
+				width: 33.33%;
+				box-sizing: border-box;
+				text-align: center;
+
+			}
+			.tab-bar-point .tab-bar-point-logo{
+				position: absolute;
+			    display: block;
+			    top: 0;
+			    left: 40%;
+				height: 60px;
+				width: 85px;
+				background-image: url(../images/tab-img.png);
+				background-repeat: no-repeat;
+			}
+			
+			.tab-bar div:nth-child(1) .tab-bar-point-logo{
+				background-position-x:-2%;
+				background-position-y:0.6%;
+			}
+			.tab-bar div:nth-child(1) .tab-bar-point-logo:hover{
+				background-position-x:-2%;
+				background-position-y:19%;
+			}
+			.tab-bar div:nth-child(1) .tab-bar-point-title{
+				padding-top:15%;
+				padding-right:1%;
+
+			}
+			.tab-bar div:nth-child(1) p{
+				padding:1.2% 9%;
+				padding-right: 9%;
+
+			}
+			.tab-bar div:nth-child(2) .tab-bar-point-logo{
+				background-position-x:49.5%;
+				background-position-y:0.25%;
+				height: 58px;
+			
+			}
+			.tab-bar div:nth-child(2) .tab-bar-point-logo:hover{
+				background-position-x:49.5%;
+				background-position-y:18.928%;
+			
+			}
+			.tab-bar div:nth-child(2) .tab-bar-point-title{
+				padding-top: 15%;
+			}
+			.tab-bar div:nth-child(2) p{
+				padding: 1.2% 8%;
+				padding-right: 31px;
+
+			}
+			.tab-bar div:nth-child(3) .tab-bar-point-logo{
+				background-position-x:100.5%;
+				background-position-y:0%;
+			}
+			.tab-bar div:nth-child(3) .tab-bar-point-logo:hover{
+				background-position-x:100.5%;
+				background-position-y:18.5%;
+			}
+			.tab-bar div:nth-child(3) .tab-bar-point-title{
+				padding-top: 15%;
+				padding-left: 0;
+			}
+			.tab-bar div:nth-child(3) p{
+				padding: 1.2% 9%;
+				padding-right: 9%;
+			}
+			.tab-bar div:nth-child(4) .tab-bar-point-logo{
+				background-position-x:-1.8%;
+				background-position-y:81.5%;
+			}
+			.tab-bar div:nth-child(4) .tab-bar-point-logo:hover{
+				background-position-x:-1.8%;
+				background-position-y:100%;
+			}
+			.tab-bar div:nth-child(4) .tab-bar-point-title{
+				padding-top: 15%;
+				padding-right: 0;
+			}
+			.tab-bar div:nth-child(4) p{
+				padding:0% 9%;
+				padding-top: .9%;
+				padding-right: 9%;
+			}
+			.tab-bar div:nth-child(5) .tab-bar-point-logo{
+				background-position-x:49.3%;
+				background-position-y:81.5%;
+			}
+			.tab-bar div:nth-child(5) .tab-bar-point-logo:hover{
+				background-position-x:49.3%;
+				background-position-y:100%;
+			}
+			.tab-bar div:nth-child(5) .tab-bar-point-title{
+				padding-top: 15%;
+				padding-right: 0.5%;
+			}
+			.tab-bar div:nth-child(5) p{
+				padding: 1% 10%;
+				padding-top: 3px;
+				padding-right: 10%;
+			}
+			.tab-bar div:nth-child(6) .tab-bar-point-logo{
+				background-position-x:100.3%;
+				background-position-y:81.5%;
+			}
+			.tab-bar div:nth-child(6) .tab-bar-point-logo:hover{
+				background-position-x:100.3%;
+				background-position-y:100.2%;
+			}
+			.tab-bar div:nth-child(6) .tab-bar-point-title{
+				padding-top: 15%;
+				padding-left: 0%;
+			}
+			.tab-bar div:nth-child(6) p{
+				padding-top: 1%;
+				padding-right: 10%;
+				padding-left: 10%;
+
+			}
+			
+			.tab-bar-point-title{
+				text-decoration: none;
+				font-size: 1.6em;
+				font-family: Raleway-Bold, sans-serif;
+				font-variant: small-caps;
+				font-style: normal;
+				color: #2d3033;
+				text-align: center;
+			}
+			.tab-bar-point-description{
+				text-decoration: none;
+				font-size: 1.4em;
+				line-height: 1.5em;
+				font-family: Raleway, sans-serif;
+				font-style: normal;
+				color: #6c7279;
+				text-align: center;
+				display: block;
+				box-sizing: border-box;
+			}
+		
+
+			.pic-bar{
+				display: flex;
+				flex-wrap:wrap;
+				margin-top: 5.48%;
+				padding: 0 0;
+			}
+		
+				.pic-bar-img{
+				display: block;
+				position: relative;
+				box-sizing: border-box;
+				height:351px;
+				width: 25%;
+				margin:0;
+				border-right: .5px solid white;
+				border-bottom: .5px solid white;
+				overflow: hidden;
+				
+			}
+			.pic-bar img{
+				width: 100%;
+				height: 100%;
+			}
+
+			
+			.pic-bar-img div:nth-child(4n+1){
+				border-left: .5px solid white;
+
+			}
+			.pic-bar-img div:nth-child(-n+4){
+				border-top: .5px solid white;
+
+			}
+			.pic-bar-img .pic-bar-img-overlay{
+			  position: absolute;
+			  display: none;
+			  top: 0;
+			  left: 0;
+			  right: 0;
+			  bottom: 0;
+			  z-index: 5;
+			  background: rgba(232,69,69,.9);
+			  margin:0;
+			}
+			.pic-bar-img:hover .pic-bar-img-overlay{
+			  position: absolute;
+			  display: block;
+			  top: 0;
+			  left: 0;
+			  right: 0;
+			  bottom: 0;
+			  z-index: 5;
+			  background: rgba(232,69,69,.9);
+			  border-top: 0px;
+			}
+			
+			.pic-bar-img-overlay h3{
+				font-size: 1.55em;
+				font-family: Raleway-Bold;
+				font-variant: small-caps;
+				font-style: normal;
+				color:rgb(255,255,255);
+				text-align: center;
+				margin-top:32%;
+				margin-left: 1.5%;
+				margin-bottom: 0;
+
+			}
+			.pic-bar-img-overlay p{
+				font-size: 1.4em;
+				font-family: Raleway;
+				font-style: normal;
+				color: rgb(255,255,255);
+				text-align: center;
+				display: block;
+				box-sizing: border-box;
+				margin-top:1.45%;
+				margin-left: 1.5%;
+				text-transform: capitalize;
+
+			}
+
+			

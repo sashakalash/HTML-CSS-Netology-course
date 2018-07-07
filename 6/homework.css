@@ -1,0 +1,124 @@
+﻿*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.calendar ul{
+	font-size: 0;
+	color: #444;
+	width: 280px;
+	box-sizing: content-box;
+}
+.calendar-weekdays {
+	
+
+border: 1px solid;
+}
+.calendar-weekdays li{
+	font-weight: bold;
+	background-color: #d3fd02;
+}
+.calendar-weekdays li + li{
+	border-left: 1px solid;
+}
+.calendar ul li{
+	
+
+display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.calendar-days{
+	border: 1px solid;
+  border-top: 0;
+	border-bottom: 0;
+}
+.calendar-days li{
+	background-color: #bababa;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+}
+.calendar-days li:nth-child(7n+1){
+
+border-left: 0;
+}
+
+
+.calendar-days li:nth-last-child(34)~li{
+	background-color: #fff;
+}
+.calendar-days li:nth-child(32)~li{
+	background-color: #bababa !important;
+}
+.calendar-days li:nth-child(7n+6){
+
+background-color: red !important;
+  
+}
+.calendar-days li:nth-child(7n+7){
+
+background-color: red !important;
+  
+}
+.task1, .task2, 
+
+ .extra-task{
+	padding: 20px;
+  
+}
+
+.task3{
+  margin: 0;
+ 
+}
+.task2 .block{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background-color: blue;
+}
+.task2 .block:nth-child(8)~div{
+  display:none;
+}
+.extra-task .menu li{
+	list-style: none;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.extra-task .menu li a{
+	text-decoration: none;
+	color: green;
+	font-size: 20px;
+	display: block;
+	border: 1px 
+
+solid;
+	padding: 5px;
+}
+.task3 li{
+  list-style-type: none;
+  margin-left: 150px;
+  
+}
+.customed-list li:nth-child(even)::before {
+  content: '@';
+  margin-right: 0.5em;
+ 
+}
+.customed-list li:nth-child(odd){
+list-style-image: url(http://iconizer.net/files/Merry_Christmas/orig/golden%20star.png);
+
+}
+
+.menu li{
+  margin: 5px;
+}
+.menu li:nth-last-child(4):first-child, 
+li:nth-last-child(4):first-child ~ li {
+  margin: 15px;
+}
